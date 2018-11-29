@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body{
+  background-color: skyblue;
+}
+
+img{
+  width: 100%;
+}
+
+.main{
+  width: 90%;
+}
+
+h2{
+  text-align: center;
+}
+
+ul{
+  width: 50%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content2{
+  font-size: 1.5em;
+}
+
+
+/*PC*/
+@media (min-width: 1020px) {
+  header{
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+
+  img{
+    width: 60%;
+    float: left;
+  }
+
+  .main{
+    width: 38%;
+    float: right;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .content2{
+    font-size: 1.5em;
+  }
+}
